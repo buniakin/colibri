@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="willy wonka" />
+    <title>Calypte - {{ page_title }}</title>
+  <!--favicon-img-->
+   <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
+
+   <!--favicon-img-->
+   <!--main css file should not be removed -->
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+    <!--mouse  follower-->
+        <div class="cursor"></div>
+    <!--mouse  follower-->
+    <!--loader-->
+        <div id="loader">
+            <span class="color">The Art</span>of nails
+        </div>
+    <!--loader-end-->
+    <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+    <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="{% static 'images/willy wonka logo.png' %}" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link" >Home</a>
+                <a href="#" data-text="ABOUT" id="about-link" >About</a>
+                <a href="#" data-text="BLOG" id="blog-link" >Art of nails</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >Portfolio</a>
+                <a href="#" data-text="CONTACT" id="contact-link" >Contact</a>
+                <a href="#service" data-text="SERVICE" id="service-link">Services</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+          <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="{% static 'images/willy wonka logo.png' %}" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+          <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+              <!--Social Media Links-->
+            <div class="social-media-links">
+               <a href="#"><img src="{% static 'images/instagram logo.png' %}" class="social-media" alt="instagram-logo"></a><!--Your instagram homepage link insert in place of "#"-->
+                <a href="#"><img src="{% static 'images/facebook logo.png' %}" class="social-media" alt="facebook-logo"></a>
+
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                <div class="firstline"><span class="color">The Art </span>of nails</div>
+                <div class="secondline">
+                Welcome today for,
+            <span class="txt-rotate color" data-period="1200" data-rotate='[ " state-of-the-art manicure.", " modern designs.", " ultimate industry trends." ]'></span>
+            <span class="slash">|</span>
+        </div>
+                    <div class="contact">
+                <a href="Mailto:kokosmos86@gmail.com"><img src="{% static 'images/mail.png' %}" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
+                <a href="Tel:+38 073 634 25 00"><img src="{% static 'images/call.png' %}" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                    </div>
+            </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+            <img src="{% static 'images/man.jpg' %}" alt="logo">
+            </div>
+            <!--header image end-->
+        </div>
+           <!--Header End-->
+        <!--HomePage End-->
+
+        <!--Main-Section End-->
+
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+            <div class="color-panel">
+                <img src="{% static 'images/gear.png' %}" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class ="header-caption">Your are welcomed <span class="color"> to get to know me better.</span></span>
+                </div>
+                <div class="about-main">
+            <div class="about-first-paragraph wow">
+            <!--about description-->
+               <span class="about-first-line">
+                    I am Halyna,
+                    <span class="color">professional and certified</span>
+                     nail master </span>
+                     <br>
+               <span class="about-second-line"> Experienced Nail Technician with several years of experience providing quality nails services to clients. Dedicated to remaining up to date with the latest nail service technologies, designs, and trends. Bringing forth advanced nail technical abilities and the desire to provide clients with the best and most pleasurable salon experience possible.</span>
+               <div class="cv">
+                <a href="https://drive.google.com/file/d/1XEuUrmdWEg1KRuVCmtYrGXBjZ11MWoUs/view?usp=share_link"><button>My <span class="colors">portfolio</span></button></a>
+            </div>
+            </div>
+            <!--about picture-->
+            <div class="about-img">
+                <img src="{% static 'images/about.jpg' %}" alt="Your Image">
+            </div>
+            </div>
+
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="{% static 'images/gear.png' %}" alt="">
+                    </div>
+                    <div class="color-selector">
+                        <div class="heading">Custom Colors</div>
+                        <div class="colors">
+                            <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+            <!--services header-->
+                    <div class="services-heading wow">
+                        <span class="color">My</span> Services
+                    </div>
+            <!--services header end-->
+            <!--services content-->
+                    <div class="services-content">
+                           <div class="service-one service wow">
+                               <div class="service-img">
+                               <img src="{% static 'images/coding.png' %}" alt="service-one">
+                               </div>
+                               <div class="service-description">
+                                <h2>Hardware and Manual manicure</h2>
+                                <p>I do professional hardware manicure which gives a much better result than traditional manicure tools. I perform gentle abrasive treatment which helps you say goodbye to calluses forever!</p>
+                               </div>
+                           </div>
+                           <div class="service-two service wow">
+                               <div class="service-img">
+                               <img src="{% static 'images/instagram.png' %}" alt="service-two">
+                               </div>
+                               <div class="service-description">
+                                <h2>Extension and restoration of nails</h2>
+                                <p>Getting manicured tips and beautiful nail extensions are all rage these days, and why not? These do make the hands look pretty and glamorous.</p>
+                               </div>
+                           </div>
+                           <div class="service-three service wow">
+                            <div class="service-img">
+                               <img src="{% static 'images/bulb.png' %}" alt="service-three">
+                            </div>
+                            <div class="service-description">
+                                <h2>Modern nail art</h2>
+                                <p>Want to look different! Choose the best and modern nail art design to impress them all around!</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                     My <span class="color"> Specialisations</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Hardware manicure and pedicure
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="html-progress wow">100%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                      Manual Manicure and pedicure
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="js-progress wow">100%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Nail polish and art design
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="adobe-progress wow">100%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Nail extension
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="php-progress wow">90%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Nail restoration
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="jquery-progress wow">100%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Hand massage
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="seo-progress wow">85%</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+             <div class="footer-text">
+                 <img src="{% static './images/copyright.png' %}" alt="copyright-img" class="images" height="14px"> Colibri
+             </div>
+            </div>
+    <!--copyright-section-->
+        </div>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="{% static 'images/gear.png' %}" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
+            <span class ="header-caption"> Recent <span class="color"> Works</span></span></div>
+             <div id="portfolio-content">
+                 <div class="portfolio portfolio-first">
+                     <div class="portfolio-image">
+                        <img src="{% static 'images/portfolio-first.jpg' %}" alt="portfolio-first">
+                     </div>
+                     <div class="portfolio-text">
+                         <h2>Quail egg</h2>
+                         <p>Light black notes of ideally polished white nail surface give impression of uncompromised sense of style</p>
+                         <div class="button"><a href="https://drive.google.com/file/d/1XEuUrmdWEg1KRuVCmtYrGXBjZ11MWoUs/view?usp=share_link"><button><span class="index"> More in portfolio<i class="gg-arrow-right"></i></span></button></a></div>
+                     </div>
+                 </div>
+                 <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="{% static 'images/portfolio-second.jpg' %}" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>All about the mint</h2>
+                        <p>A slight breath of Provence. France and fields of lavender. A combination of colors in a style for an easy mood!</p>
+                        <div class="button"><a href="https://drive.google.com/file/d/1XEuUrmdWEg1KRuVCmtYrGXBjZ11MWoUs/view?usp=share_link"><button><span class="index"> More in portfolio<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                        <img src="{% static 'images/portfolio-third.jpg' %}" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Wine for the Lady</h2>
+                        <p>You get their glances tonight! Your manicure ideally fits your cocktail dress, you see a glass of red wine reflected in ideally polished surface on your nails!</p>
+                        <div class="button"><a href="https://drive.google.com/file/d/1XEuUrmdWEg1KRuVCmtYrGXBjZ11MWoUs/view?usp=share_link"><button><span class="index"> More in portfolio<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="{% static 'images/portfolio-fourth.jpg' %}" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Autumn comes! </h2>
+                        <p> And here you are autumn! Maple leaves became yellow with light shades of red. But the air is still warm, and you enjoy the sea breeze and a light sea wave, which gives glare on the perfect surface of your nails.</p>
+                        <div class="button"><a href="https://drive.google.com/file/d/1XEuUrmdWEg1KRuVCmtYrGXBjZ11MWoUs/view?usp=share_link"><button><span class="index"> More in portfolio<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                 </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="{% static './images/copyright.png' %}" alt="copyright-img" class="images" height="14px"> Colibri - let yourself shine!
+                </div>
+               </div>
+       <!--copyright-section-->
+             </div>
+        <!--portfolio end-->
+
+        <!--blog-->
+        <div id="blog">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="{% static 'images/gear.png' %}" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        <div class="blog-header"> Nail industry trends</div>
+            <span class ="header-caption"> Latest <span class="color"> news.</span></span></div>
+            <div class="blog-content">
+                 <div class="blogs">
+                     <a href="https://www.beautyindependent.com/skinification-nail-segment-next/">
+                     <div class="img">
+                        <img src="{% static 'images/post-one.jpg' %}" alt="blog-one">
+                        <div class="blog-date">21 Dec,22</div>
+                     </div>
+                     <div class="blog-text">
+                         <h3>Skinification of nails</h3>
+                         <p>In the nail segment, the idea of health that’s resonated with skincare consumers makes sense even at a moment of nail art ascendance. “When you do nail art, you still want to have healthy nails,” says Tran co-founder and CEO of Anise. “In order for nail art to stay well on the nail plate, you have to have healthy, hard nails first. It’s very important”</p>
+                     </div></a>
+                 </div>
+                 <div class="blogs">
+                    <a href="https://nimblebeauty.com/products/the-device">
+                    <div class="img">
+                        <img src="{% static 'images/post-two.jpg' %}" alt="blog-two">
+                        <div class="blog-date">19 Dec,22</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Smart at-home mani</h3>
+                        <p>Sally Hansen and Essie introduced virtual try-on tools that help find the perfect nail polish shade in an augmented reality environment. Glaize created made-to-measure gel manicures for application at home. Users take four photos of their hands for a program to craft a 3D model of their nails.</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="https://gettheskin.com/body/nails/experimental-nails-are-in-for-2021-according-to-this-nail-artist/">
+                    <div class="img">
+                        <img src="{% static 'images/post-three.jpg' %}" alt="blog-three">
+                        <div class="blog-date">23 Dec,22</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Experimental nail art</h3>
+                        <p>Consumers embrace vibrant color and creative nail art as an extension of fashion (think: vibrant swirls, negative space, smiley faces icons, and rhinestone embellishments). According to Pinterest, “yellow” and “green” are exhibiting huge search volume increases, +277% and +87%, respectively.</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="https://www.tiege.com/blogs/news/5-reasons-for-men-to-get-a-manicure">
+                    <div class="img">
+                        <img src="{% static 'images/post-four.jpg' %}" alt="blog-four">
+                        <div class="blog-date">13 Dec,22</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Menicures</h3>
+                        <p>Today, we're seeing a spike in men wearing nail polish and a rise in brands created by celebrity men. In April 2021, Machine Gun Kelly revealed that he was working on his nail-polish brand, Un/Dn Laqr. Later that year, Harry Styles and Tyler the Creator announced their nail polish lines</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="https://www.whowhatwear.co.uk/popular-nail-colors-2022">
+                    <div class="img">
+                        <img src="{% static 'images/post-five.jpg' %}" alt="blog-five">
+                        <div class="blog-date">10 Dec,22</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Color</h3>
+                        <p>Earth tones refer to any color that one may see in nature. Even in our digital age, most people want to have a connection to the planet. This is why earth and neutral colors are such a huge trend.</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="https://behindthechair.com/articles/spring-nail-trend-alert-tiny-embellishments/">
+                    <div class="img">
+                        <img src="{% static 'images/post-six.jpg' %}" alt="blog-six">
+                        <div class="blog-date">28 Nov,22</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Embellishments</h3>
+                        <p>As of Spring 2022, embellishments started replacing nail designs and effects. The most popular nail embellishments of the Spring and Summer seasons are small rhinestones, pearls, and gemstones.</p>
+                    </div></a>
+                </div>
+            </div>
+               <!--copyright-section You Can Remove After Downloading-->
+               <div class="footer">
+                <div class="footer-text">
+                    <img src="{% static './images/copyright.png' %}" alt="copyright-img" class="images" height="14px"> Calypte - Let yourself shine!
+                </div>
+               </div>
+       <!--copyright-section-->
+        </div>
+        <!--blog end-->
+
+    <!--service-->
+        <div id="service">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="{% static 'images/gear.png' %}" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        <div class="blog-header"> List of Services</div>
+            <span class ="header-caption"> Book <span class="color"> service.</span></span></div>
+            <div class="blog-content">
+                 <div class="blogs">
+                     <a href="Mailto:kokosmos86@gmail.com">
+                     <div class="img">
+                        <img src="{% static 'images/service-1.jpg' %}" alt="blog-one">
+                        <div class="blog-date"> from 30 euro</div>
+                     </div>
+                     <div class="blog-text">
+                         <h3>Hardware drill manicure / pedicure</h3>
+                         <p> The order of the hardware manicure depends on the condition of the nails, the desired result and other factors. That's why I use different methods. In the process of work, the following types of hardware manicure can be used:
+                            milling of the nail plate;
+                            combined manicure;
+                            treatment of the nail plate with the application of gel polish under the cuticle..</p>
+                     </div></a>
+                 </div>
+                 <div class="blogs">
+                    <a href="Mailto:kokosmos86@gmail.com">
+                    <div class="img">
+                        <img src="{% static 'images/service-2.jpg' %}" alt="blog-two">
+                        <div class="blog-date">from 20 euro</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Classic manual manicure / pedicure</h3>
+                        <p>I offer a classic cut manicure. I remove cuticles and keratinized skin growths from the surface of the nail folds. Removal is carried out by cutting using special tools. The procedure is 100% painless and safe. I work sterile.</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="Mailto:kokosmos86@gmail.com">
+                    <div class="img">
+                        <img src="{% static 'images/service-3.jpg' %}" alt="blog-three">
+                        <div class="blog-date">from 45 euro</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Nail extension</h3>
+                        <p>Apart from classic extension technics, now, we've got more options: There are quick fixes (like press on nails) and newer innovations (like SNS dip powder), plus gel extensions.</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="Mailto:kokosmos86@gmail.com">
+                    <div class="img">
+                        <img src="{% static 'images/service-4.jpg' %}" alt="blog-four">
+                        <div class="blog-date">from 25 euro</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Nail correction and restoration</h3>
+                        <p>I apply an additional layer of modeling material on the regrown part of the nail plate. Manicure correction also includes the treatment of nail folds and cuticles. Strongly regrown nails are trimmed or grinded.</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="Mailto:kokosmos86@gmail.com">
+                    <div class="img">
+                        <img src="{% static 'images/service-5.jpg' %}" alt="blog-five">
+                        <div class="blog-date">from 12 euro</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Gel nail polish</h3>
+                        <p>I do gel nail polish in accordance with the latest techniques and trends. I give a 2-week guarantee on my work. During the warranty period, the restoration of the damaged coating is free of charge if it happened by my fault.</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="Mailto:kokosmos86@gmail.com">
+                    <div class="img">
+                        <img src="{% static 'images/service-6.jpg' %}" alt="blog-six">
+                        <div class="blog-date">from 35 euro</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Almond SPA-manicure</h3>
+                        <p>Combination of cosmetic procedure with aromatherapy. Almond oil nourishes, saturates it with vitamins and minerals. It has a unique aroma, relaxing and soothing. The process improves blood circulation, gently cleanses the skin of the hands from keratinized scales.</p>
+                    </div></a>
+                </div>
+            </div>
+
+       <!--copyright-section-->
+        </div>
+        <!--service end-->
+
+
+        <!--contact-->
+     <div id="contact">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img src="{% static 'images/gear.png' %}" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+         <div class="contact-header">Get in touch <span class="color"> with me</span>
+        <div class="contact-header-caption"> <span class="color"> How to</span> find me.</div></div>
+        <div class="contact-content">
+            <!--Contact form-->
+             <div class="contact-form">
+
+                 <form id="myForm" action="#">
+
+                    <button type="button" id ="submit" value="send">Send me a message</button>
+                     <div class="about-img">
+                <img src="{% static 'images/about-2.jpg' %}" alt="Me in Paris">
+            </div>
+                 </form>
+
+             </div>
+            <!--Contact form-->
+            <!--Contact information-->
+             <div class="contact-info">
+                <div class="contact-info-header">
+                    Contact information
+                </div>
+                <div class="contact-info-content">
+                <div class="contect-info-content-line">
+                    <img src="{% static './images/icon-name.png' %}" class="icon" alt="name-icon">
+                    <div class="contact-info-icon-text">
+                        <h6>Company</h6>
+                        <p>Colibri</p>
+                  </div>
+                </div>
+                <div class="contect-info-content-line">
+                  <img src="{% static './images/icon-location.png' %}" class="icon" alt="location-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Location</h6>
+                      <p>Limassol, Cyprus</p>
+                </div>
+              </div>
+              <div class="contect-info-content-line">
+                  <img src="{% static './images/icon-phone.png' %}" class="icon" alt="phone-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Call me (or WhatsApp, Viber)</h6>
+                      <p>+38 073 634 25 00</p>
+                </div>
+              </div>
+
+              <div class="contect-info-content-line">
+                  <img src="{% static './images/icon-email.png' %}" class="icon" alt="email-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Email</h6>
+                      <p>kokosmos86@gmail.com</p>
+                </div>
+              </div>
+                </div>
+            <!--Contact information end-->
+           </div>
+        </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+                    <div class="footer">
+                        <div class="footer-text">
+                            <img src="{% static './images/copyright.png' %}" alt="copyright-img" class="images" height="14px"> Colibri - Let yourself shine!
+                        </div>
+                       </div>
+               <!--copyright-section-->
+     </div>
+        <!--contact end-->
+    </div>
+    <!--all the divisions-->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/particles.js' %}"></script>
+    <script src="{% static 'js/particles.min.js' %}"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+    <!--particles script-->
+    <script>
+  particlesJS("particles", {"particles":{"number":{"value":40,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+    </script>
+
+</body>
+</html>
